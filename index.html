@@ -18,71 +18,74 @@
         <h1>Professional Bio</h1>
     </header>
 
-    <div class="schoolProjects">
-        <h2>School Projects:</h2>
-        <ul>
-            <li>Bed & Breakfast Website</li>
-            <li>My Professional Website</li>
-            <li>Responsive Travel Website</li>
-        </ul>
+    <div class="container1">
+        <div class="schoolProjects">
+            <h2>School Projects:</h2>
+            <ul>
+                <li>Bed & Breakfast Website</li>
+                <li>My Professional Website</li>
+                <li>Responsive Travel Website</li>
+            </ul>
+        </div>
+
+        <div class="classTable">
+            <table>
+                <tr>
+                    <th class="descriptionRow" colspan="2">Past and Current Classes</th>
+                </tr>
+                <tr>
+                    <th>Computer Science Essentials</th>
+                    <th>Year long class designed to teach the fundamentals of computer science fundamentals and concepts through the use of block coding.</th>
+                </tr>
+                <tr>
+                    <th>CIS-130</th>
+                    <th>Introduction course that teaches a beginner level in HTML, CSS, and JavaScript.</th>
+                </tr>
+                <tr>
+                    <th class="descriptionRow"colspan="2">Future Classes</th>
+                </tr>
+                <tr>
+                    <th>CIS-120</th>
+                    <th>Introduction course that teaches beginning programming techniques and problem solving.</th>
+                </tr>
+                <tr>
+                    <th>CIS-135</th>
+                    <th>Course designed to teach about concepts and skills surrounding different cloud-computing resources in relation to application development.</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="hobbies">
+            <h2>Hobbies:</h2>
+            <ul>
+                <li>Drawing</li>
+                <li>Coding</li>
+                <li>Writing</li>
+            </ul>
+        </div>
     </div>
 
-    <div class="classTable">
-        <table>
-            <tr>
-                <th colspan="2">Past and Current Classes</th>
-            </tr>
-            <tr>
-                <th>Computer Science Essentials</th>
-                <th>Year long class designed to teach the fundamentals of computer science fundamentals and concepts through the use of block coding.</th>
-            </tr>
-            <tr>
-                <th>CIS-130</th>
-                <th>Introduction course that teaches a beginner level in HTML, CSS, and JavaScript.</th>
-            </tr>
-            <tr>
-                <th colspan="2">Future Classes</th>
-            </tr>
-            <tr>
-                <th>CIS-120</th>
-                <th>Introduction course that teaches beginning programming techniques and problem solving.</th>
-            </tr>
-            <tr>
-                <th>CIS-135</th>
-                <th>Course designed to teach about concepts and skills surrounding different cloud-computing resources in relation to application development.</th>
-            </tr>
-        </table>
-    </div>
+    <div class="container2">
+        <div class="mainImage">
+            <img src="computer.jpg" alt="computer on a desk" width="300"/>
+        </div>
 
-    <div class="hobbies">
-        <h2>Hobbies:</h2>
-        <ul>
-            <li>Drawing</li>
-            <li>Coding</li>
-            <li>Writing</li>
-        </ul>
+        <div class="messageForm">
+            <form method="post" action="thankyou.html">
+                <div>
+                    <fieldset>
+                        <legend>Leave a Message:</legend>
+                        <label for="firstName">
+                            Name: <input autofocus type="text" name="firstName" id="firstName" required placeholder="First name" />
+                        </label>
+                        <label>Message Here:</label>
+                                <textarea name="addMessage"></textarea>
+                    </fieldset>
+                </div>
+                <input class="submit" type="submit" value="Submit" />
+            </form>
+        </div>
     </div>
-
-    <div class="mainImage">
-        <img src="computer.jpg" alt="computer on a desk" width="300"/>
-    </div>
-
-    <div class="messageForm">
-        <form method="post" action="thankyou.html">
-            <div>
-                <fieldset>
-                    <legend>Leave a Message:</legend>
-                    <label for="firstName">
-                        Name: <input autofocus type="text" name="firstName" id="firstName" required placeholder="First name" />
-                    </label>
-                    <label>Message Here:</label>
-                            <textarea name="addMessage"></textarea>
-                </fieldset>
-            </div>
-            <input class="submit" type="submit" value="Submit" />
-        </form>
-    </div>
-
 
     <footer>
         <p>Hayleigh Alexander</p>
